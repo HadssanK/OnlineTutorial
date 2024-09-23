@@ -1,0 +1,31 @@
+
+.hero-section h1 {
+    font-size: 3rem; /* Adjust font size */
+    font-weight: bold;
+    margin: 90px 0 0 220px;
+
+    margin-bottom: 20px; /* Space between heading and paragraph */
+    color: #222; /* Text color */
+}
+.hero-section p {
+    font-size: 1.25rem; /* Adjust font size */
+    color: #222; /* Text color */
+    width: 70%;
+    margin: 20px 0 0 190px;
+    text-align: center;
+    /* justify-items: center; */
+    line-height: 1.6; /* Line height for better readability */
+}
+.dark .hero-section h1{
+    color: #fff;
+}
+.dark .hero-section p{
+    color: #fff;
+}
+.hero-section hr{
+    width: 70%;
+    height: 5px;
+    margin: 50px 0 70px 190px;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,94,121,0.6755077030812324) 37%, rgba(0,212,255,1) 100%);
+}

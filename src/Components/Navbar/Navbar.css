@@ -1,0 +1,91 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+    transition: 0.5s;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.toggle-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+}
+.dark .Navbar{
+    background: #000;
+    color: #fff;
+}
+.dark .search-box{
+    background: #fff;
+}
+.dark .search-box input{
+    color: #222;
+}
+
+.dark .search-box input::placeholder{
+    color: #222;
+}
+/* Styling for links */
+.nav-links a {
+    text-decoration: none; /* Remove default underline */
+    color: #333; /* Set link color */
+    /* font-size: 1rem; Set font size */
+    padding: 0.5rem 1rem; /* Add padding around links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  }
+  .dark .nav-links a{
+    color: #fff;
+  }
+  /* Hover and focus states */
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #12171d; /* Background color on hover/focus */
+  color: #fff; /* Text color on hover/focus */
+}
+
+/* Active link styling (optional) */
+.nav-links a.active {
+  font-weight: bold; /* Make active link text bold */
+  border-bottom: 2px solid #1a232d; /* Add underline to active link */
+}

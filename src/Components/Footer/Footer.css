@@ -1,0 +1,74 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto; /* Center the content */
+    max-width: 1200px; /* Control maximum width */
+    padding: 0 20px; /* Add padding for small screens */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 220px; /* Adjust min-width as needed */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #e9ecef;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.social-media a {
+    color: #e9ecef;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #d4d4d4;
+}
+
+.footer-credit {
+    margin: 10px 0;
+}
